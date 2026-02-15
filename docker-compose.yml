@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    networks:
+      - traefik-proxy
+    volumes:
+      - game-data:/data
+    restart: unless-stopped
+
+volumes:
+  game-data:
+
+networks:
+  traefik-proxy:
+    external: true

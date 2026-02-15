@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Explain It To Grandma - Word Cloud Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <div class="container">
+                <h1>Explain It To Grandma!</h1>
+                <div class="grandma-avatar">👵</div>
+                <p class="tagline">Can you pick the simple words that describe cybersecurity jobs?</p>
+                <div class="player-info">
+                    <label class="player-label" for="player-name">Enter your name:</label>
+                    <input type="text" id="player-name" class="player-name-input" maxlength="24" autocomplete="off" spellcheck="false">
+                </div>
+                <div class="instructions">
+                    <h2>How to Play</h2>
+                    <ul>
+                        <li>You have <strong>60 seconds</strong> to complete 5 stages</li>
+                        <li>Each stage shows a <strong>job title</strong> and 20 words — tap the <strong>5 simple ones</strong></li>
+                        <li>Avoid the <strong>jargon</strong> — it costs you a point!</li>
+                        <li>Find all 5 to advance — help Grandma understand!</li>
+                    </ul>
+                </div>
+                <button id="start-btn" class="btn btn-primary">Start Game</button>
+                <div id="start-leaderboard" class="leaderboard-inline"></div>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="container">
+                <div class="game-header">
+                    <div class="timer-container">
+                        <span class="timer-label">Time</span>
+                        <span id="timer" class="timer">60</span>
+                    </div>
+                    <div class="stage-container">
+                        <span class="stage-label">Stage</span>
+                        <span id="stage-display" class="stage-value">1/5</span>
+                    </div>
+                    <div class="player-container">
+                        <span class="player-label-small">Player</span>
+                        <span id="player-name-display" class="player-name-small">---</span>
+                    </div>
+                    <div class="score-container">
+                        <span class="score-label">Score</span>
+                        <span id="score" class="score">0</span>
+                    </div>
+                </div>
+
+                <div class="chat-bubbles">
+                    <div class="chat-row chat-row-left">
+                        <div class="chat-avatar">👩</div>
+                        <div class="chat-bubble-stack">
+                            <div class="chat-bubble chat-bubble-left">
+                                <span id="friend-message">My friend said her daughter works as a</span>
+                            </div>
+                            <div class="chat-bubble chat-bubble-left chat-bubble-title">
+                                <span id="current-job-title">Loading...</span>
+                                <span class="tier-indicator">Tier <span id="tier-display">1</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-row chat-row-right">
+                        <div id="grandma-speech" class="chat-bubble chat-bubble-right">
+                            <span id="grandma-text">What does that mean, dear?</span>
+                        </div>
+                        <div class="chat-avatar">👵</div>
+                    </div>
+                </div>
+
+                <div class="found-bar">
+                    <span id="found-display">0</span>/5 found
+                    <span id="jargon-hits-display" class="jargon-hits-counter"></span>
+                </div>
+
+                <div id="word-cloud" class="word-cloud"></div>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="end-screen" class="screen">
+            <div class="container">
+                <h1 id="end-title">Grandma Understands!</h1>
+                <div class="grandma-avatar">👵</div>
+                <div id="grandma-final-message" class="grandma-final-message">
+                    <p>Now I understand what you do! Thank you, dear!</p>
+                </div>
+                <div class="end-stats">
+                    <div class="end-stat end-stat-score">
+                        <span class="end-stat-value" id="final-score">0</span>
+                        <span class="end-stat-label">Score</span>
+                    </div>
+                    <div class="end-stat">
+                        <span class="end-stat-value" id="end-stages">5</span>
+                        <span class="end-stat-label">Stages</span>
+                    </div>
+                    <div class="end-stat">
+                        <span class="end-stat-value end-stat-good" id="end-correct">0</span>
+                        <span class="end-stat-label">Correct</span>
+                    </div>
+                    <div class="end-stat">
+                        <span class="end-stat-value end-stat-bad" id="end-jargon">0</span>
+                        <span class="end-stat-label">Jargon Hits</span>
+                    </div>
+                </div>
+                <div id="end-leaderboard" class="leaderboard-inline"></div>
+                <button id="play-again-btn" class="btn btn-primary">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
