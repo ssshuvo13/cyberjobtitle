@@ -16,6 +16,7 @@ COPY server.js ./
 COPY public ./public
 
 # Create data directory for SQLite database
+RUN mkdir -p /app/data
 RUN mkdir -p /data
 
 EXPOSE 3333
