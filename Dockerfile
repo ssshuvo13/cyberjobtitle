@@ -18,6 +18,6 @@ COPY public ./public
 # Create data directory for SQLite database
 RUN mkdir -p /data
 
-EXPOSE 4000
+EXPOSE 3333
 
 CMD ["node", "server.js"]
