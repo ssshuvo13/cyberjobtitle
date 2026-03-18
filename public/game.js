@@ -2,7 +2,7 @@
 const gameState = {
     score: 0,
     stage: 0,
-    timeLeft: 60,
+    timeLeft: 120,
     timerInterval: null,
     tiers: {},
     currentJob: null,
