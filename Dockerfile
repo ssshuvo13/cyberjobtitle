@@ -19,6 +19,6 @@ COPY public ./public
 RUN mkdir -p /app/data
 RUN mkdir -p /data
 
-EXPOSE 4000
+EXPOSE 3000
 
 CMD ["node", "server.js"]
