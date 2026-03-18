@@ -167,7 +167,7 @@ async function startGame() {
     // Reset state
     gameState.score = 0;
     gameState.stage = 0;
-    gameState.timeLeft = 60;
+    gameState.timeLeft = 120;
     gameState.jargonHits = 0;
     gameState.totalCorrect = 0;
     gameState.isPlaying = true;
