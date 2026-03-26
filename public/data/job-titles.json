@@ -5,31 +5,31 @@
         "title": "Security Consultant",
         "fullTitle": "Security Consultant",
         "common": ["advice", "safety", "planning", "problems", "fixes"],
-        "jargon": ["pentest", "compliance", "audit", "framework", "vulnerability", "remediation", "NIST", "ISO", "controls", "assessment", "baseline", "hardening", "posture", "maturity", "governance"]
+        "jargon": ["pentest", "compliance", "audit", "framework", "vulnerability", "remediation"]
       },
       {
         "title": "Security Auditor",
         "fullTitle": "Security Auditor",
         "common": ["rules", "mistakes", "reports", "reviews", "grades"],
-        "jargon": ["compliance", "framework", "SOC2", "controls", "attestation", "findings", "remediation", "NIST", "baseline", "governance", "audit trail", "scope", "artifact", "regulation", "assurance"]
+        "jargon": ["compliance", "framework", "SOC2", "controls", "findings", "remediation", "audit trail"]
       },
       {
         "title": "Fraud Analyst",
         "fullTitle": "Fraud Analyst",
         "common": ["cheaters", "fakes", "money", "tricks", "theft"],
-        "jargon": ["anomaly", "transaction", "algorithm", "heuristic", "chargeback", "KYC", "AML", "false positive", "pattern", "correlation", "behavioral", "indicator", "threshold", "escalation", "triage"]
+        "jargon": ["anomaly", "transaction", "algorithm", "false positive", "behavioral", "indicator", "threshold", "escalation", "triage"]
       },
       {
         "title": "Privacy Engineer",
         "fullTitle": "Privacy Engineer",
         "common": ["secrets", "info", "private", "people", "sharing"],
-        "jargon": ["GDPR", "PII", "anonymization", "encryption", "compliance", "data subject", "retention", "consent", "masking", "tokenization", "controller", "processor", "DPA", "minimization", "obfuscation"]
+        "jargon": ["GDPR", "PII", "anonymization", "encryption", "compliance", "data subject", "retention", "consent", "masking", "DPA"]
       },
       {
         "title": "Security Awareness Trainer",
         "fullTitle": "Security Awareness Trainer",
         "common": ["teaching", "danger", "training", "warnings", "lessons"],
-        "jargon": ["phishing", "simulation", "compliance", "social engineering", "vector", "CBT", "metrics", "campaign", "baseline", "remediation", "module", "assessment", "credential", "payload", "gamification"]
+        "jargon": ["phishing", "simulation", "compliance", "social engineering", "campaign", "baseline", "credential", "payload", "gamification"]
       }
     ],
     "2": [
@@ -37,31 +37,31 @@
         "title": "Penetration Tester",
         "fullTitle": "Penetration Tester",
         "common": ["breaking", "holes", "locks", "burglar", "doors"],
-        "jargon": ["exploit", "payload", "metasploit", "CVE", "buffer", "shellcode", "nmap", "privilege", "lateral", "persistence", "enumeration", "reverse shell", "zero-day", "rootkit", "pivoting"]
+        "jargon": ["exploit", "payload", "metasploit", "shellcode", "nmap", "privilege", "persistence", "enumeration", "reverse shell", "zero-day"]
       },
       {
         "title": "Incident Responder",
         "fullTitle": "Incident Responder",
         "common": ["fires", "attacks", "rescue", "damage", "rushing"],
-        "jargon": ["triage", "containment", "eradication", "IOC", "forensics", "playbook", "escalation", "SIEM", "artifact", "remediation", "chain of custody", "timeline", "scope", "severity", "postmortem"]
+        "jargon": ["forensics", "playbook", "escalation", "SIEM", "artifact", "remediation", "scope", "severity", "postmortem"]
       },
       {
         "title": "Forensic Analyst",
         "fullTitle": "Digital Forensic Analyst",
         "common": ["clues", "crimes", "traces", "digging", "proof"],
-        "jargon": ["artifact", "chain of custody", "imaging", "hash", "volatile", "registry", "metadata", "acquisition", "preservation", "timeline", "entropy", "carving", "write blocker", "exfiltration", "IOC"]
+        "jargon": ["artifact", "chain of custody", "imaging", "hash", "volatile", "registry", "acquisition", "preservation"]
       },
       {
         "title": "Vulnerability Researcher",
         "fullTitle": "Vulnerability Researcher",
         "common": ["flaws", "breaking", "bugs", "limits", "cracks"],
-        "jargon": ["CVE", "exploit", "fuzzing", "buffer", "heap", "RCE", "PoC", "disclosure", "patch", "reverse engineer", "binary", "decompiler", "stack", "shellcode", "gadget"]
+        "jargon": ["CVE", "exploit", "fuzzing", "buffer", "reverse engineer", "binary", "decompiler", "stack", "shellcode", "gadget"]
       },
       {
         "title": "Security Engineer",
         "fullTitle": "Security Engineer",
         "common": ["walls", "alarms", "blocking", "safety", "locks"],
-        "jargon": ["firewall", "IDS", "WAF", "SIEM", "hardening", "encryption", "PKI", "ACL", "segmentation", "baseline", "endpoint", "proxy", "TLS", "IAM", "pipeline"]
+        "jargon": ["firewall", "IDS", "WAF", "SIEM", "hardening", "encryption", "PKI", "ACL", "segmentation", "baseline", "endpoint"]
       }
     ],
     "3": [
@@ -69,31 +69,31 @@
         "title": "SOC Analyst",
         "fullTitle": "Security Operations Center Analyst",
         "common": ["screens", "trouble", "guarding", "alarms", "alerts"],
-        "jargon": ["SIEM", "IOC", "triage", "correlation", "endpoint", "EDR", "playbook", "escalation", "SOAR", "alert fatigue", "false positive", "severity", "telemetry", "detection", "enrichment"]
+        "jargon": ["SIEM", "IOC", "triage", "correlation", "endpoint", "EDR", "playbook", "false positive", "severity", "telemetry", "detection"]
       },
       {
         "title": "CISO",
         "fullTitle": "Chief Information Security Officer",
         "common": ["boss", "plans", "leader", "rules", "board"],
-        "jargon": ["governance", "risk appetite", "framework", "compliance", "posture", "KPI", "maturity", "board briefing", "budget", "roadmap", "strategic", "regulation", "NIST", "executive", "stakeholder"]
+        "jargon": ["governance", "risk appetite", "framework", "compliance", "KPI", "maturity", "board briefing", "budget", "roadmap"]
       },
       {
         "title": "Threat Hunter",
         "fullTitle": "Threat Hunter",
         "common": ["sneaks", "hidden", "clues", "searching", "spies"],
-        "jargon": ["IOC", "TTP", "hypothesis", "telemetry", "MITRE", "APT", "lateral", "persistence", "beaconing", "anomaly", "baseline", "pivoting", "correlation", "enrichment", "adversary"]
+        "jargon": ["IOC", "TTP", "hypothesis", "telemetry", "MITRE", "APT", "lateral", "correlation", "enrichment", "adversary"]
       },
       {
         "title": "Malware Analyst",
         "fullTitle": "Malware Analyst",
         "common": ["viruses", "studying", "dissecting", "traps", "tricks"],
-        "jargon": ["sandbox", "reverse engineer", "decompiler", "obfuscation", "payload", "dropper", "C2", "packer", "entropy", "static analysis", "dynamic analysis", "IOC", "signature", "polymorphic", "disassembly"]
+        "jargon": ["sandbox", "reverse engineer", "decompiler", "obfuscation", "payload", "dropper", "C2"]
       },
       {
         "title": "Red Team Operator",
         "fullTitle": "Red Team Operator",
         "common": ["attacker", "testing", "sneaking", "villain", "probing"],
-        "jargon": ["C2", "payload", "persistence", "lateral", "phishing", "implant", "evasion", "exfiltration", "OPSEC", "cobalt strike", "beacon", "pivot", "exploit", "staging", "adversary"]
+        "jargon": ["C2", "payload", "persistence", "lateral", "phishing", "implant", "evasion", "exfiltration", "exploit", "staging", "adversary"]
       }
     ],
     "4": [
@@ -101,31 +101,31 @@
         "title": "Blue Team Analyst",
         "fullTitle": "Blue Team Analyst",
         "common": ["gates", "blocking", "walls", "defending", "intruders"],
-        "jargon": ["SIEM", "EDR", "IDS", "firewall", "correlation", "IOC", "playbook", "containment", "triage", "endpoint", "detection", "alert", "baseline", "tuning", "enrichment"]
+        "jargon": ["SIEM", "EDR", "IDS", "firewall", "correlation", "containment", "triage", "endpoint", "detection", "alert"]
       },
       {
         "title": "DFIR Lead",
         "fullTitle": "Digital Forensics and Incident Response Lead",
         "common": ["rescue", "cleanup", "damage", "directing", "solving"],
-        "jargon": ["triage", "containment", "forensics", "artifact", "chain of custody", "IOC", "playbook", "eradication", "scope", "timeline", "volatile", "imaging", "remediation", "escalation", "postmortem"]
+        "jargon": ["triage", "containment", "forensics", "artifact", "chain of custody", "imaging", "remediation", "escalation", "postmortem"]
       },
       {
         "title": "GRC Specialist",
         "fullTitle": "Governance, Risk, and Compliance Specialist",
         "common": ["rules", "risk", "policy", "legal", "standards"],
-        "jargon": ["compliance", "framework", "regulation", "NIST", "ISO", "controls", "attestation", "audit", "governance", "risk register", "maturity", "remediation", "SOC2", "policy", "SLA"]
+        "jargon": ["compliance", "framework", "regulation", "controls", "attestation", "audit", "governance", "risk register"]
       },
       {
         "title": "Detection Engineer",
         "fullTitle": "Detection Engineer",
         "common": ["traps", "alarms", "patterns", "catching", "tripwires"],
-        "jargon": ["SIEM", "sigma", "YARA", "correlation", "detection logic", "false positive", "telemetry", "query", "pipeline", "tuning", "coverage", "MITRE", "alert", "enrichment", "threshold"]
+        "jargon": ["SIEM", "correlation", "pipeline", "tuning", "coverage", "MITRE", "alert", "enrichment", "threshold"]
       },
       {
         "title": "Cryptographer",
         "fullTitle": "Cryptographer",
         "common": ["codes", "messages", "locking", "scrambling", "secrets"],
-        "jargon": ["RSA", "AES", "elliptic curve", "cipher", "entropy", "hash", "PKI", "key exchange", "quantum", "lattice", "homomorphic", "protocol", "primitive", "nonce", "initialization vector"]
+        "jargon": ["RSA", "AES", "elliptic curve", "cipher", "entropy", "hash", "PKI", "key exchange", "quantum"]
       }
     ],
     "5": [
@@ -133,25 +133,25 @@
         "title": "SIEM Engineer",
         "fullTitle": "Security Information and Event Management Engineer",
         "common": ["dashboards", "logs", "connecting", "events", "tracking"],
-        "jargon": ["SIEM", "correlation", "ingestion", "parser", "normalization", "retention", "index", "query", "pipeline", "enrichment", "telemetry", "alert", "splunk", "elastic", "aggregation"]
+        "jargon": ["SIEM", "correlation", "ingestion", "parser", "normalization", "retention", "telemetry", "alert", "aggregation"]
       },
       {
         "title": "SOAR Engineer",
         "fullTitle": "Security Orchestration, Automation and Response Engineer",
         "common": ["automating", "speed", "tools", "robots", "time"],
-        "jargon": ["orchestration", "playbook", "API", "integration", "workflow", "automation", "enrichment", "triage", "SOAR", "runbook", "webhook", "case management", "escalation", "SIEM", "remediation"]
+        "jargon": ["orchestration", "playbook", "API", "integration", "workflow", "automation", "enrichment", "triage", "SOAR"]
       },
       {
         "title": "vCISO",
         "fullTitle": "Virtual Chief Information Security Officer",
         "common": ["remote", "leader", "expert", "rental", "visiting"],
-        "jargon": ["governance", "risk appetite", "framework", "compliance", "posture", "strategic", "maturity", "roadmap", "advisory", "stakeholder", "regulation", "NIST", "program", "retainer", "engagement"]
+        "jargon": ["governance", "risk appetite", "framework", "compliance", "posture", "strategic", "maturity"]
       },
       {
         "title": "Zero Trust Architect",
         "fullTitle": "Zero Trust Architect",
         "common": ["nobody", "checking", "verifying", "walls", "everything"],
-        "jargon": ["microsegmentation", "IAM", "MFA", "perimeter", "policy engine", "identity", "least privilege", "conditional access", "SASE", "ZTNA", "proxy", "encryption", "context", "posture", "continuous"]
+        "jargon": ["microsegmentation", "IAM", "MFA", "perimeter", "policy engine", "identity", "least privilege", "conditional access"]
       },
       {
         "title": "TSCM Specialist",
@@ -163,121 +163,121 @@
         "title": "PAM Administrator",
         "fullTitle": "Privileged Access Management Administrator",
         "common": ["keys", "access", "vaults", "power", "entry"],
-        "jargon": ["PAM", "privileged", "credential vault", "session recording", "just-in-time", "least privilege", "service account", "rotation", "elevation", "checkout", "SSH key", "RBAC", "audit trail", "break glass", "bastion"]
+        "jargon": ["PAM", "privileged", "credential vault", "session recording", "just-in-time", "least privilege", "SSH key", "RBAC", "audit trail", "break glass", "bastion"]
       },
       {
         "title": "CASB Administrator",
         "fullTitle": "Cloud Access Security Broker Administrator",
         "common": ["cloud", "apps", "sharing", "leaks", "uploads"],
-        "jargon": ["CASB", "DLP", "shadow IT", "API", "proxy", "tenant", "SaaS", "policy", "classification", "encryption", "tokenization", "UEBA", "inline", "reverse proxy", "sanctioned"]
+        "jargon": ["CASB", "DLP", "shadow IT", "API", "proxy", "tenant", "SaaS", "policy"]
       },
       {
         "title": "UEBA Analyst",
         "fullTitle": "User and Entity Behavior Analytics Analyst",
         "common": ["habits", "weirdness", "normal", "oddness", "patterns"],
-        "jargon": ["UEBA", "anomaly", "baseline", "behavioral", "ML", "entity", "risk score", "lateral", "insider threat", "peer group", "deviation", "correlation", "enrichment", "timeline", "telemetry"]
+        "jargon": ["UEBA", "anomaly", "baseline", "behavioral", "ML", "entity", "risk score", "lateral", "insider threat"]
       },
       {
         "title": "Deception Engineer",
         "fullTitle": "Deception Engineer",
         "common": ["traps", "fakes", "tricking", "lures", "decoys"],
-        "jargon": ["honeypot", "honeytoken", "canary", "decoy", "lure", "breadcrumb", "deception grid", "tripwire", "engagement", "telemetry", "adversary", "lateral", "credential", "beacon", "attribution"]
+        "jargon": ["honeypot", "honeytoken", "canary", "decoy", "lure", "breadcrumb", "deception grid"]
       },
       {
         "title": "Adversary Emulation Specialist",
         "fullTitle": "Adversary Emulation Specialist",
         "common": ["copying", "mimicking", "enemy", "threats", "repeating"],
-        "jargon": ["TTP", "MITRE", "APT", "C2", "implant", "tradecraft", "emulation plan", "adversary", "payload", "evasion", "persistence", "lateral", "exfiltration", "atomic red", "detection gap"]
+        "jargon": ["adversary", "payload", "evasion", "persistence", "lateral", "exfiltration", "atomic red", "detection gap"]
       },
       {
         "title": "CTI Analyst",
         "fullTitle": "Cyber Threat Intelligence Analyst",
         "common": ["enemies", "reports", "dangers", "predicting", "warnings"],
-        "jargon": ["TTP", "IOC", "APT", "MITRE", "STIX", "TAXII", "diamond model", "attribution", "campaign", "adversary", "indicator", "enrichment", "feed", "intelligence cycle", "collection"]
+        "jargon": ["campaign", "adversary", "indicator", "enrichment", "feed", "intelligence cycle", "collection"]
       },
       {
         "title": "OT Security Engineer",
         "fullTitle": "Operational Technology Security Engineer",
         "common": ["machines", "factories", "plants", "robots", "power"],
-        "jargon": ["SCADA", "PLC", "ICS", "OT", "air gap", "Purdue model", "HMI", "DCS", "Modbus", "protocol", "segmentation", "DMZ", "firmware", "historian", "safety system"]
+        "jargon": ["SCADA", "PLC", "ICS", "OT", "air gap", "Purdue model", "safety system"]
       },
       {
         "title": "ICS Security Specialist",
         "fullTitle": "Industrial Control Systems Security Specialist",
         "common": ["controls", "systems", "valves", "switches", "sensors"],
-        "jargon": ["ICS", "SCADA", "PLC", "DCS", "Modbus", "OPC", "ladder logic", "RTU", "HMI", "safety system", "Purdue model", "firmware", "protocol", "historian", "segmentation"]
+        "jargon": ["safety system", "Purdue model", "firmware", "protocol", "historian", "segmentation"]
       },
       {
         "title": "HSM Administrator",
         "fullTitle": "Hardware Security Module Administrator",
         "common": ["boxes", "chips", "keys", "tokens", "devices"],
-        "jargon": ["HSM", "PKI", "key management", "FIPS", "tamper", "partition", "PKCS", "certificate", "entropy", "key ceremony", "root CA", "signing", "provisioning", "firmware", "audit log"]
+        "jargon": ["HSM", "PKI", "key management", "FIPS", "PKCS", "certificate", "entropy", "key ceremony", "root CA"]
       },
       {
         "title": "PKI Administrator",
         "fullTitle": "Public Key Infrastructure Administrator",
         "common": ["badges", "passes", "identity", "stamps", "names"],
-        "jargon": ["PKI", "certificate", "CA", "CRL", "OCSP", "X.509", "root CA", "intermediate", "revocation", "enrollment", "key pair", "CSR", "chain of trust", "renewal", "signing"]
+        "jargon": ["PKI", "certificate", "enrollment", "key pair", "CSR", "chain of trust", "renewal", "signing"]
       },
       {
         "title": "MDR Analyst",
         "fullTitle": "Managed Detection and Response Analyst",
         "common": ["remote", "hired", "helper", "nightly", "guarding"],
-        "jargon": ["MDR", "EDR", "SIEM", "SOC", "triage", "escalation", "detection", "containment", "telemetry", "alert", "playbook", "enrichment", "false positive", "severity", "SLA"]
+        "jargon": ["MDR", "EDR", "SIEM", "SOC", "triage", "escalation", "detection"]
       },
       {
         "title": "XDR Engineer",
         "fullTitle": "Extended Detection and Response Engineer",
         "common": ["linking", "bigger", "merging", "pieces", "unifying"],
-        "jargon": ["XDR", "EDR", "SIEM", "correlation", "telemetry", "detection", "integration", "enrichment", "API", "automation", "orchestration", "visibility", "alert", "triage", "aggregation"]
+        "jargon": ["XDR", "EDR", "SIEM", "correlation", "telemetry", "detection", "integration"]
       },
       {
         "title": "Purple Team Lead",
         "fullTitle": "Purple Team Lead",
         "common": ["bridges", "joining", "testing", "sharing", "improving"],
-        "jargon": ["TTP", "MITRE", "detection gap", "coverage", "emulation", "adversary", "control", "validation", "red team", "blue team", "framework", "atomic test", "finding", "remediation", "debrief"]
+        "jargon": ["validation", "red team", "blue team", "framework", "atomic test", "finding", "remediation", "debrief"]
       },
       {
         "title": "Cyber Fusion Analyst",
         "fullTitle": "Cyber Fusion Analyst",
         "common": ["mixing", "combining", "teams", "sources", "knowledge"],
-        "jargon": ["fusion center", "intelligence", "correlation", "IOC", "TTP", "enrichment", "stakeholder", "feed", "integration", "collaboration", "situational", "adversary", "campaign", "collection", "dissemination"]
+        "jargon": ["collaboration", "situational", "adversary", "campaign", "collection", "dissemination"]
       },
       {
         "title": "Attribution Analyst",
         "fullTitle": "Attribution Analyst",
         "common": ["naming", "source", "trails", "blame", "pointing"],
-        "jargon": ["attribution", "APT", "TTP", "IOC", "campaign", "adversary", "infrastructure", "diamond model", "MITRE", "indicator", "OPSEC", "false flag", "artifact", "tradecraft", "persona"]
+        "jargon": ["attribution", "APT", "TTP", "IOC", "campaign", "adversary", "infrastructure", "diamond model"]
       },
       {
         "title": "Memory Forensics Specialist",
         "fullTitle": "Memory Forensics Specialist",
         "common": ["memory", "running", "hidden", "snapshots", "inside"],
-        "jargon": ["volatile", "RAM", "process", "injection", "Volatility", "heap", "stack", "dump", "kernel", "artifact", "rootkit", "handle", "DLL", "pool tag", "hibernation"]
+        "jargon": ["volatile", "RAM", "process", "injection", "Volatility", "kernel", "artifact"]
       },
       {
         "title": "Sandbox Engineer",
         "fullTitle": "Sandbox Engineer",
         "common": ["cages", "safely", "danger", "trapping", "watching"],
-        "jargon": ["sandbox", "detonation", "evasion", "dynamic analysis", "behavioral", "hypervisor", "artifact", "IOC", "C2", "callback", "obfuscation", "packer", "emulation", "instrumentation", "snapshot"]
+        "jargon": ["sandbox", "detonation", "evasion", "dynamic analysis", "behavioral", "hypervisor", "emulation", "instrumentation", "snapshot"]
       },
       {
         "title": "WAF Engineer",
         "fullTitle": "Web Application Firewall Engineer",
         "common": ["websites", "blocking", "traffic", "pages", "shielding"],
-        "jargon": ["WAF", "OWASP", "XSS", "SQL injection", "rule", "signature", "false positive", "bypass", "payload", "tuning", "virtual patch", "rate limiting", "bot", "regex", "policy"]
+        "jargon": ["WAF", "OWASP", "XSS", "SQL injection", "rule", "signature", "false positive", "bypass", "payload"]
       },
       {
         "title": "DLP Analyst",
         "fullTitle": "Data Loss Prevention Analyst",
         "common": ["leaks", "copying", "files", "sharing", "data"],
-        "jargon": ["DLP", "classification", "policy", "endpoint", "exfiltration", "fingerprint", "regex", "OCR", "channel", "remediation", "incident", "false positive", "encryption", "USB", "watermark"]
+        "jargon": ["DLP", "classification", "policy", "endpoint", "remediation", "incident", "false positive", "encryption", "USB", "watermark"]
       },
       {
         "title": "CNO Developer",
         "fullTitle": "Computer Network Operations Developer",
         "common": ["tools", "weapons", "coding", "programs", "exploits"],
-        "jargon": ["CNO", "implant", "C2", "exploit", "payload", "evasion", "OPSEC", "tradecraft", "toolchain", "kernel", "shellcode", "zero-day", "binary", "obfuscation", "staging"]
+        "jargon": ["CNO", "implant", "C2", "exploit", "payload", "evasion", "zero-day", "binary", "obfuscation", "staging"]
       }
     ]
   }
